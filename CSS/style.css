@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+
+
+nav ul li{
+    background-color: rgb(77, 74, 74); 
+    margin-bottom: 20px;
+    
+    
+    display: inline-block;
+    padding: 20px;
+    float: left;
+   height: 110px;
+    
+}
+
+nav ul li a{
+    color: white ;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    
+    
+}
+
+#sub {
+    float: left;
+  width: 33.33%;
+  
+
+}
+
+#sec{
+    float: left;
+    width: 50%;
+}
