@@ -4,7 +4,7 @@
 
 body{
     padding: 10px;
-    background-color: antiquewhite;
+    background-color: white;
 }
 nav{
     background-color: #333;
@@ -31,16 +31,81 @@ nav ul li a{
         
 }
 
-
+#hero-image img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 #sub {
+   
     float: left;
   width: 33.33%;
+  padding: 5px;
   
 
 }
+.row{
+    content: "";
+    clear: both;
+    display: table;
+    margin-left: 230px;
+    padding: 20px;
+    width: 1045px;
+  }
 
-#sec{
-    float: left;
+#scroll {
+    background: rgb(231, 227, 227);
+    color: black;
+  
     width: 50%;
+    
+    overflow: scroll;
+    
+}
+
+button{
+    background-color: rgb(201, 199, 199);
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+button:hover{
+    background-color: black;
+    color: chartreuse;
+}
+
+
+
+
+#banner {
+    display: inline-block;
+    height: 400px;
+  
+  padding: 5px;
+}
+#banner img{
+    margin-left: 250px;
+    }
+
+article{
+    float: right;
+    height: 700px;
+    width: 480px;
+margin-left: 20px;
+margin-bottom: 10px;
+}
+article h2{
+    font-weight: bold;
+}
+
+footer{
+    background-color: rgb(31, 29, 29);
+    height: 100px;
+    width: 100%;
+    margin-top: 50px;
 }
