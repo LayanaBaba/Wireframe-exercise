@@ -6,22 +6,24 @@ body{
     padding: 10px;
     background-color: white;
 }
-nav{
+header{
+    text-align: center;
     background-color: #333;
     margin-bottom: 20px;
 }
 
-nav ul{
-    position: relative;
+
+header img{
+    vertical-align: middle;
 }
 
-nav ul li{
+header nav ul li{
     display: inline-block;
     padding: 20px;
     margin-left: 20px;
     
 }
-nav ul li a{
+header nav ul li a{
     color: #f2f2f2;
     text-decoration: none;
     font-weight: bold;
